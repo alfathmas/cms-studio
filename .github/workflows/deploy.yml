@@ -13,6 +13,6 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: ${{ secrets.KEY }}
+          password: ${{ secrets.KEY }}
           script: |
             echo "hello world"
